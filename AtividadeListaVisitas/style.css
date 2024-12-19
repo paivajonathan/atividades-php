@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+}
+
+.mensagem {
+  background-color: #bbb;
+  padding: 1rem;
+  margin: 1rem 0.25rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #bbb;
+  width: fit-content;
+}
+
+table textarea {
+  resize: none;
+}
+
+table input[type="text"],
+table input[type="email"],
+table textarea {
+  width: 300px;
+}
+
+table input[type="text"]:focus,
+table input[type="email"]:focus,
+table textarea:focus {
+  outline: none;
+}
